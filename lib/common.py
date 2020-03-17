@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf8 -*-
-import uuid,hashlib
+import uuid
+import hashlib
 import time
 
 
