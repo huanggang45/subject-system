@@ -36,7 +36,7 @@ class Admin(BaseModel):
             name = input("请输入用户名：").strip()
             password = input("请输入密码：").strip()
             for obj in Admin.get_all_obj_list():
-                if obj.username == name and obj.password == pas:
+                if obj.username == name and obj.password == password:
                     status = True
                     error = ''
                     data = '\033[45;1m登录成功\033[0m'
